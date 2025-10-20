@@ -1,24 +1,21 @@
 [
   {
     "year": 2025,
-    "title": "Physics-Based Motion Imitation with Adversarial Differential Discriminators",
-    "authors": "Ziyu Zhang, Sergey Bashkirov, Dun Yang, Yi Shi, Michael Taylor, Your Name",
-    "venue": "ACM SIGGRAPH Asia 2025",
-    "project": "https://example.com/project",
-    "paper": "https://arxiv.org/abs/0000.00000",
-    "code": "https://github.com/yourname/project",
-    "image": "assets/placeholder.svg",
+    "title": "Constrained Reinforcement Learning with Smoothed Log Barrier Function",
+    "authors": "Baohe_Zhang, Yuan Zhang, Hao Zhu, Shengchao Yan, Thomas Brox, Joschka Boedecker ",
+    "venue": "Transactions on Machine Learning Research (TMLR)",
+    "paper": "https://openreview.net/forum?id=Amh95oURaE&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DTMLR%2FAuthors%23your-submissions)",
+    "image": "assets/safeRL2025.pdf",
     "note": ""
   },
   {
-    "year": 2024,
-    "title": "Interactive Character Control with Auto-Regressive Motion Diffusion Models",
-    "authors": "Yi Shi, Jingbo Wang, Your Name",
-    "venue": "ACM Transactions on Graphics (Proc. SIGGRAPH 2024)",
-    "project": "https://example.com/project2",
-    "paper": "https://arxiv.org/abs/1111.11111",
-    "code": "",
-    "image": "assets/placeholder.svg",
+    "year": 2025,
+    "title": "BYE: Build Your Encoder with One Sequence of Exploration Data for Long-Term Dynamic Scene Understanding",
+    "authors": "Chenguang Huang, Shengchao Yan, Wolfram Burgard",
+    "venue": "IEEE Robotics and Automation Letters (RA-L)",
+    "project": "https://byencoder.github.io/",
+    "paper": "https://arxiv.org/pdf/2412.02449",
+    "image": "assets/bye.mp4",
     "note": ""
   }
 ]

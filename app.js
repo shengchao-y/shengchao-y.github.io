@@ -26,7 +26,7 @@ async function loadPubs(){
         t.textContent = p.title;
         const a = document.createElement('div');
         a.className = 'meta';
-        a.textContent = p.authors;
+        a.innerHTML = p.authors.replace(/Shengchao Yan/g, '<b>Shengchao Yan</b>');
         const v = document.createElement('div');
         v.className = 'meta';
         v.textContent = p.venue + (p.note? (' · ' + p.note) : '');
