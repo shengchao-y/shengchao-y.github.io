@@ -1,0 +1,24 @@
+[
+  {
+    "year": 2025,
+    "title": "Physics-Based Motion Imitation with Adversarial Differential Discriminators",
+    "authors": "Ziyu Zhang, Sergey Bashkirov, Dun Yang, Yi Shi, Michael Taylor, Your Name",
+    "venue": "ACM SIGGRAPH Asia 2025",
+    "project": "https://example.com/project",
+    "paper": "https://arxiv.org/abs/0000.00000",
+    "code": "https://github.com/yourname/project",
+    "image": "assets/placeholder.svg",
+    "note": ""
+  },
+  {
+    "year": 2024,
+    "title": "Interactive Character Control with Auto-Regressive Motion Diffusion Models",
+    "authors": "Yi Shi, Jingbo Wang, Your Name",
+    "venue": "ACM Transactions on Graphics (Proc. SIGGRAPH 2024)",
+    "project": "https://example.com/project2",
+    "paper": "https://arxiv.org/abs/1111.11111",
+    "code": "",
+    "image": "assets/placeholder.svg",
+    "note": ""
+  }
+]
