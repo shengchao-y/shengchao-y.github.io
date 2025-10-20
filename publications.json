@@ -10,6 +10,15 @@
   },
   {
     "year": 2025,
+    "title": "Multi-convex Programming for Discrete Latent Factor Models Prototyping",
+    "authors": "Hao Zhu, Shengchao Yan, Jasper Hoffmann, Joschka Boedecker",
+    "venue": "arXiv Preprint",
+    "paper": "https://arxiv.org/pdf/2504.01431",
+    "image": "assets/mcp2025.pdf",
+    "note": ""
+  },
+  {
+    "year": 2025,
     "title": "BYE: Build Your Encoder with One Sequence of Exploration Data for Long-Term Dynamic Scene Understanding",
     "authors": "Chenguang Huang, Shengchao Yan, Wolfram Burgard",
     "venue": "IEEE Robotics and Automation Letters (RA-L)",
@@ -17,5 +26,24 @@
     "paper": "https://arxiv.org/pdf/2412.02449",
     "image": "assets/bye.mp4",
     "note": ""
+  },
+  {
+    "year": 2024,
+    "title": "Goal Achievement Guided Exploration: Mitigating Premature Convergence in Learning Robot Control",
+    "authors": "Shengchao Yan, Baohe Zhang, Joschka Boedecker, Wolfram Burgard",
+    "venue": "Conference on Robot Learning (CoRL) Workshop WCBM",
+    "paper": "https://openreview.net/forum?id=pn8uRpPsrU",
+    "image": "assets/gage2024.png",
+    "note": ""
+  },
+  {
+    "year": 2024,
+    "title": "Agent-Agnostic Centralized Training for Decentralized Multi-Agent Cooperative Driving",
+    "authors": "Shengchao Yan, Lukas König, Wolfram Burgard",
+    "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+    "paper": "https://arxiv.org/pdf/2403.11914",
+    "image": "assets/agent-agnostic2024.png",
+    "note": ""
   }
+
 ]
