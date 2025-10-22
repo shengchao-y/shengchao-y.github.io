@@ -5,7 +5,7 @@
     "authors": "Baohe_Zhang, Yuan Zhang, Hao Zhu, Shengchao Yan, Thomas Brox, Joschka Boedecker ",
     "venue": "Transactions on Machine Learning Research (TMLR)",
     "paper": "https://openreview.net/forum?id=Amh95oURaE&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DTMLR%2FAuthors%23your-submissions)",
-    "image": "assets/safeRL2025.pdf",
+    "image": "assets/safeRL2025.png",
     "note": ""
   },
   {
@@ -14,7 +14,7 @@
     "authors": "Hao Zhu, Shengchao Yan, Jasper Hoffmann, Joschka Boedecker",
     "venue": "arXiv Preprint",
     "paper": "https://arxiv.org/pdf/2504.01431",
-    "image": "assets/mcp2025.pdf",
+    "image": "assets/mcp2025.png",
     "note": ""
   },
   {
@@ -53,6 +53,42 @@
     "paper": "https://arxiv.org/pdf/2407.13431",
     "image": "assets/ood2024.png",
     "note": ""
+  },
+  {
+    "year": 2024,
+    "title": "Learning Continuous Control with Geometric Regularity from Robot Intrinsic Symmetry",
+    "authors": "Shengchao Yan, Baohe Zhang, Yuan Zhang, Joschka Boedecker, Wolfram Burgard",
+    "venue": "IEEE International Conference on Robotics and Automation (ICRA)",
+    "project": "https://masarobot.github.io/",
+    "paper": "https://arxiv.org/pdf/2306.16316",
+    "image": "assets/masa2024.png",
+    "note": ""
+  },
+  {
+    "year": 2022,
+    "title": "Courteous Behavior of Automated Vehicles at Unsignalized Intersections via Reinforcement Learning",
+    "authors": "Shengchao Yan, Tim Welschehold, Daniel Büscher, Wolfram Burgard",
+    "venue": "IEEE Robotics and Automation Letters (RA-L)",
+    "paper": "https://arxiv.org/pdf/2106.06369",
+    "image": "assets/vtsc2022.png",
+    "note": ""
+  },
+  {
+    "year": 2021,
+    "title": "Efficiency and Equity are Both Essential: A Generalized Traffic Signal Controller with Deep Reinforcement Learning",
+    "authors": "Shengchao Yan, Jingwei Zhang, Daniel Büscher, Wolfram Burgard",
+    "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+    "paper": "https://arxiv.org/pdf/2003.04046",
+    "image": "assets/tsc2021.png",
+    "note": ""
+  },
+  {
+    "year": 2019,
+    "title": "Estimating Object Shape and Movement Using Local Occupancy Grid Maps",
+    "authors": "Jannik Quehl, Shengchao Yan, Sascha Wirges, Jan-Hendrik Pauls, Martin Lauer",
+    "venue": "IFAC Symposium on Intelligent Autonomous Vehicles IAV",
+    "paper": "https://drive.google.com/file/d/1HZ9aDziBu0uLG7f3rkNKO-URKm4vAOLk/view?pli=1",
+    "image": "assets/lgm2019.png",
+    "note": ""
   }
-
 ]
