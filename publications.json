@@ -32,7 +32,8 @@
     "title": "Goal Achievement Guided Exploration: Mitigating Premature Convergence in Learning Robot Control",
     "authors": "Shengchao Yan, Baohe Zhang, Joschka Boedecker, Wolfram Burgard",
     "venue": "Conference on Robot Learning (CoRL) Workshop WCBM",
-    "paper": "https://openreview.net/forum?id=pn8uRpPsrU",
+    "project": "https://openreview.net/forum?id=pn8uRpPsrU",
+    "paper": "assets/workshop_yan24CoRL.pdf",
     "image": "assets/gage2024.png",
     "note": ""
   },
