@@ -17,7 +17,7 @@ a:hover{text-decoration:underline}
 .nav a{padding:14px 8px;font-weight:600;color:#333}
 .brand{font-size:22px;font-weight:800;margin-right:auto}
 .hero{display:grid;grid-template-columns:120px 1fr;gap:24px;align-items:center;margin-top:24px}
-.hero img{width:120px;height:120px;border-radius:50%;object-fit:cover;border:3px solid #eee}
+.hero img{width:120px;height:160px;border-radius:10%;object-fit:contain;border:3px solid #eee}
 .hero h1{margin:0 0 6px 0;font-size:28px}
 .hero p{margin:0;color:var(--muted)}
 .section{margin-top:40px}
