@@ -15,10 +15,78 @@ async function loadPubs(){
         wrap.style.display = 'grid';
         wrap.style.gridTemplateColumns = '160px 1fr';
         wrap.style.gap = '12px';
-        const img = document.createElement('img');
-        img.src = p.image || 'assets/placeholder.svg';
-        img.alt = p.title;
-        wrap.appendChild(img);
+        // const img = document.createElement('img');
+        // img.src = p.image || 'assets/placeholder.svg';
+        // img.alt = p.title;
+        // wrap.appendChild(img);
+        const mediaWrap = document.createElement('div');
+        mediaWrap.className = 'thumb';
+
+        const src =
+          (p.media && p.media.src) || p.image || 'assets/placeholder.svg';
+
+        const type =
+          (p.media && p.media.type) || (/\.(mp4)(\?.*)?$/i.test(src) ? 'video' :
+          /\.(pdf)(\?.*)?$/i.test(src) ? 'pdf' : 'image');
+
+        const poster =
+          (p.media && p.media.poster) || p.poster || 'assets/placeholder.svg';
+
+        if (type === 'video') {
+          const vid = document.createElement('video');
+          vid.src = src;
+          vid.muted = true;
+          vid.loop = true;
+          vid.playsInline = true;
+          vid.preload = 'metadata';
+          if (poster) vid.poster = poster;
+          vid.setAttribute('aria-label', p.title);
+          mediaWrap.appendChild(vid);
+
+          const io = new IntersectionObserver((entries) => {
+            entries.forEach(e => { if (e.isIntersecting) vid.play().catch(()=>{}); else vid.pause(); });
+          }, { threshold: 0.25 });
+          io.observe(vid);
+
+        } else if (type === 'pdf') {
+          // Clickable poster that opens the PDF in a new tab
+          const link = document.createElement('a');
+          link.href = src;
+          link.target = '_blank';
+          link.rel = 'noopener';
+
+          const img = document.createElement('img');
+          img.src = poster;             // use your generated thumbnail or a generic one
+          img.alt = p.title + ' (PDF)';
+          link.appendChild(img);
+
+          // Small "PDF" badge
+          const badge = document.createElement('span');
+          badge.className = 'badge';
+          badge.textContent = 'PDF';
+          mediaWrap.appendChild(link);
+          mediaWrap.appendChild(badge);
+
+          // Optional inline preview (desktop-only) if you set media.inline = true
+          const inline = p.media && p.media.inline === true;
+          if (inline && window.matchMedia('(min-width: 900px)').matches) {
+            const iframe = document.createElement('iframe');
+            iframe.src = src + '#toolbar=0&view=fitH';
+            iframe.title = p.title + ' (PDF preview)';
+            iframe.loading = 'lazy';
+            iframe.className = 'pdf-inline';
+            mediaWrap.appendChild(iframe);
+          }
+
+        } else {
+          // image
+          const img = document.createElement('img');
+          img.src = src || 'assets/placeholder.svg';
+          img.alt = p.title;
+          mediaWrap.appendChild(img);
+        }
+
+        wrap.appendChild(mediaWrap);
 
         const info = document.createElement('div');
         const t = document.createElement('div');

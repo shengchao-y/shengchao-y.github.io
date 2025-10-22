@@ -44,6 +44,15 @@
     "paper": "https://arxiv.org/pdf/2403.11914",
     "image": "assets/agent-agnostic2024.png",
     "note": ""
+  },
+  {
+    "year": 2024,
+    "title": "Improving Out-of-Distribution Generalization of Trajectory Prediction for Autonomous Driving via Polynomial Representations",
+    "authors": "Yue Yao, Shengchao Yan, Daniel Goehring, Wolfram Burgard, Joerg Reichardt",
+    "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+    "paper": "https://arxiv.org/pdf/2407.13431",
+    "image": "assets/ood2024.png",
+    "note": ""
   }
 
 ]
