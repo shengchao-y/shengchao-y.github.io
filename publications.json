@@ -2,7 +2,7 @@
   {
     "year": 2026,
     "title": "Goal Achievement Guided Exploitation: A Principled Performance-Based Scheduling Framework for Reinforcement Learning",
-    "authors": "Shengchao Yan, Baohe_Zhang, Chenguang Huang, Joschka Boedecker, Wolfram Burgard",
+    "authors": "Shengchao Yan, Baohe Zhang, Chenguang Huang, Joschka Boedecker, Wolfram Burgard",
     "venue": "Transactions on Machine Learning Research (TMLR)",
     "paper": "https://openreview.net/forum?id=uGidW0fKhK",
     "image": "assets/go2beam.mp4",
@@ -11,7 +11,7 @@
   {
     "year": 2025,
     "title": "Constrained Reinforcement Learning with Smoothed Log Barrier Function",
-    "authors": "Baohe_Zhang, Yuan Zhang, Hao Zhu, Shengchao Yan, Thomas Brox, Joschka Boedecker ",
+    "authors": "Baohe Zhang, Yuan Zhang, Hao Zhu, Shengchao Yan, Thomas Brox, Joschka Boedecker ",
     "venue": "Transactions on Machine Learning Research (TMLR)",
     "paper": "https://openreview.net/forum?id=Amh95oURaE&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DTMLR%2FAuthors%23your-submissions)",
     "image": "assets/safeRL2025.png",
